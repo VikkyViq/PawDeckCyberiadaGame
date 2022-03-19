@@ -48,3 +48,12 @@ Thumbs.db
 *.mov
 *.wmv
 
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+.vs/
+/*.csproj
+/*.sln*
