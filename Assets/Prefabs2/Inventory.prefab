@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 5877672838377330306}
   - component: {fileID: 5174064656873211785}
   - component: {fileID: 115721114972429386}
+  - component: {fileID: 4567217523594168812}
   m_Layer: 5
   m_Name: InventoryDescription
   m_TagString: Untagged
@@ -585,6 +586,21 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &4567217523594168812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965811073117174696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20a49d8857178740ac5878896dc91c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImage: {fileID: 7184349779011815516}
+  title: {fileID: 8574644395601427867}
+  description: {fileID: 3372773383787903690}
 --- !u!1 &3378212976854414038
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,6 +721,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 7775155950438065790, guid: 9c4c5c8ae49e72248bb1255d4f6bafa7, type: 3}
   contentPanel: {fileID: 3677468851395157489}
+  itemDescription: {fileID: 4567217523594168812}
+  image: {fileID: 21300000, guid: 56881a79567a5674fa806259f5257aee, type: 3}
+  quantity: 1
+  title: Pretzel
+  description: Test Pretzel
 --- !u!1 &3659642898959704925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,7 +1447,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5006766449453941865}
   m_HandleRect: {fileID: 8998957757470429110}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
