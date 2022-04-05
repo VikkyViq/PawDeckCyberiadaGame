@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryController : MonoBehaviour
+public class UIInventoryController : MonoBehaviour
 {
     [SerializeField]
-    private UIInventoryPage inventoryUI;
-
+    private InventoryPage inventoryUI;
     public int inventorySize = 10;
     private void Start()
     {
@@ -25,6 +24,5 @@ public class InventoryController : MonoBehaviour
                 inventoryUI.Hide();
             }
         }
-
     }
 }
