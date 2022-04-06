@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4067,20 +4067,6 @@ MonoBehaviour:
   canInteract: 0
   mat: {fileID: 2100000, guid: 4b4ab88db845bed4ab10d73eddf928c8, type: 2}
   glow: {fileID: 2100000, guid: 609ad989c3a92e14b92ec4ce6be85b26, type: 2}
---- !u!64 &873904354
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873904351}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: -1
-  m_Mesh: {fileID: 2534964839176971238, guid: 7f13b5767a4d1ff4a8be19410cb2e39e, type: 3}
 --- !u!4 &873904357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7f13b5767a4d1ff4a8be19410cb2e39e, type: 3}
