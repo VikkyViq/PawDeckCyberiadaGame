@@ -25,7 +25,7 @@ public class InventoryItem : MonoBehaviour, IPointerClickHandler, IBeginDragHand
         Deselect();
     }
 
-    private void Deselect()
+    public void Deselect()
     {
         BorderImage.enabled = false;
     }
@@ -60,10 +60,6 @@ public class InventoryItem : MonoBehaviour, IPointerClickHandler, IBeginDragHand
 
     public void OnPointerClick(PointerEventData pointerData)
     {
-        if (empty)
-        {
-            return;
-        }
         if (pointerData.button == PointerEventData.InputButton.Right)
         {
             OnRightMouseBtnClick?.Invoke(this);
