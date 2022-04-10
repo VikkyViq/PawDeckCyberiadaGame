@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1841,6 +1841,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4ea33fb1334ae9f47aab076b21e4a96f, type: 3}
       propertyPath: m_Name
       value: tortowy domek
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 4ea33fb1334ae9f47aab076b21e4a96f, type: 3}
+      propertyPath: m_Convex
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea33fb1334ae9f47aab076b21e4a96f, type: 3}
@@ -3825,22 +3829,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canInteract: 0
-  mat: {fileID: -3033667219593020291, guid: d29f06b46c5b43e4fbe0a1bb0ff47f25, type: 3}
+  mat: {fileID: 2100000, guid: 5682f73a11d80174a959ec18d3308b59, type: 2}
   glow: {fileID: 2100000, guid: 609ad989c3a92e14b92ec4ce6be85b26, type: 2}
---- !u!64 &873904354
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873904351}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: -1
-  m_Mesh: {fileID: 2534964839176971238, guid: 7f13b5767a4d1ff4a8be19410cb2e39e, type: 3}
 --- !u!4 &873904357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7f13b5767a4d1ff4a8be19410cb2e39e, type: 3}
@@ -5953,7 +5943,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 7f13b5767a4d1ff4a8be19410cb2e39e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -3033667219593020291, guid: d29f06b46c5b43e4fbe0a1bb0ff47f25, type: 3}
+      objectReference: {fileID: 2100000, guid: 5682f73a11d80174a959ec18d3308b59, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f13b5767a4d1ff4a8be19410cb2e39e, type: 3}
       propertyPath: m_Name
       value: Rakieta
