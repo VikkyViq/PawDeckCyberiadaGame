@@ -6,82 +6,85 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class InventoryItem : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IEndDragHandler, IDropHandler, IDragHandler
+namespace Inventory.UI
 {
-    [SerializeField]
-    private Image itemImage;
-    [SerializeField]
-    private TMP_Text quantityTxt;
-    [SerializeField]
-    private Image BorderImage;
-
-    public event Action<InventoryItem> OnItemClicked, OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag, OnRightMouseBtnClick;
-
-    private bool empty = true;
-
-    public void Awake()
+    public class InventoryItem : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IEndDragHandler, IDropHandler, IDragHandler
     {
-        ResetData();
-        Deselect();
-    }
+        [SerializeField]
+        private Image itemImage;
+        [SerializeField]
+        private TMP_Text quantityTxt;
+        [SerializeField]
+        private Image BorderImage;
 
-    public void Deselect()
-    {
-        BorderImage.enabled = false;
-    }
+        public event Action<InventoryItem> OnItemClicked, OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag, OnRightMouseBtnClick;
 
-    private void ResetData()
-    {
-        this.itemImage.gameObject.SetActive(false);
-        this.empty = true;
-    }
-    public void SetData(Sprite sprite, int quantity)
-    {
-        this.itemImage.gameObject.SetActive(true);
-        this.itemImage.sprite = sprite;
-        this.quantityTxt.text = quantity + "";
-        this.empty = false;
-    }
+        private bool empty = true;
 
-    public void Select()
-    {
-        BorderImage.enabled = true;
-    }
-    
-
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        if (empty)
+        public void Awake()
         {
-            return;
+            ResetData();
+            Deselect();
         }
-        OnItemBeginDrag?.Invoke(this);
-    }
 
-    public void OnPointerClick(PointerEventData pointerData)
-    {
-        if (pointerData.button == PointerEventData.InputButton.Right)
+        public void Deselect()
         {
-            OnRightMouseBtnClick?.Invoke(this);
+            BorderImage.enabled = false;
         }
-        else
+
+        public void ResetData()
         {
-            OnItemClicked?.Invoke(this);
+            itemImage.gameObject.SetActive(false);
+            empty = true;
         }
-    }
+        public void SetData(Sprite sprite, int quantity)
+        {
+            itemImage.gameObject.SetActive(true);
+            itemImage.sprite = sprite;
+            quantityTxt.text = quantity + "";
+            empty = false;
+        }
 
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        
-        OnItemEndDrag?.Invoke(this);
-    }
+        public void Select()
+        {
+            BorderImage.enabled = true;
+        }
 
-    public void OnDrop(PointerEventData eventData)
-    {
-        OnItemDroppedOn?.Invoke(this);
-    }
 
-    public void OnDrag(PointerEventData eventData)
-    {
+        public void OnBeginDrag(PointerEventData eventData)
+        {
+            if (empty)
+            {
+                return;
+            }
+            OnItemBeginDrag?.Invoke(this);
+        }
+
+        public void OnPointerClick(PointerEventData pointerData)
+        {
+            if (pointerData.button == PointerEventData.InputButton.Right)
+            {
+                OnRightMouseBtnClick?.Invoke(this);
+            }
+            else
+            {
+                OnItemClicked?.Invoke(this);
+            }
+        }
+
+        public void OnEndDrag(PointerEventData eventData)
+        {
+
+            OnItemEndDrag?.Invoke(this);
+        }
+
+        public void OnDrop(PointerEventData eventData)
+        {
+            OnItemDroppedOn?.Invoke(this);
+        }
+
+        public void OnDrag(PointerEventData eventData)
+        {
+        }
     }
 }
