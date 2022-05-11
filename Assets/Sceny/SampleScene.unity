@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1994,6 +1994,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -83.948
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4ea33fb1334ae9f47aab076b21e4a96f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2e23b41810a1ac94e9b2bf8bf3327667, type: 2}
     - target: {fileID: 919132149155446097, guid: 4ea33fb1334ae9f47aab076b21e4a96f, type: 3}
       propertyPath: m_Name
       value: tortowy domek
@@ -5038,6 +5042,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 43.119
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: eca359c7eb3ad9f4c93a74c252889e01, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1822cd5429bac244d9608c6cf03ec135, type: 2}
     - target: {fileID: 919132149155446097, guid: eca359c7eb3ad9f4c93a74c252889e01, type: 3}
       propertyPath: m_Name
       value: znak z lizaka001
@@ -5600,7 +5608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2476
+      value: 0.24760002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5608,11 +5616,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0154
+      value: -0.0123
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8144042
+      value: 0.9990549
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5620,11 +5628,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000029802326
+      value: 0.00000007078052
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.5802981
+      value: 0.043466665
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5636,8 +5644,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -70.943
+      value: 4.982
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b7d22dd4992745448837f31b4a57c137, type: 2}
     - target: {fileID: 919132149155446097, guid: 27af4007c0bb9ef4180fba94e8c73851, type: 3}
       propertyPath: m_Name
       value: sloik z miodem
@@ -5924,6 +5936,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ab84a9cd8da0f824283adf86bb1bc463, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03edd2585b40d8b499d65d1dc1d12a26, type: 2}
     - target: {fileID: 919132149155446097, guid: ab84a9cd8da0f824283adf86bb1bc463, type: 3}
       propertyPath: m_Name
       value: lizak laska
@@ -6329,15 +6345,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2dd87a740f4fb4149a46307583a401d6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.15862341
+      value: 0.1592
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2dd87a740f4fb4149a46307583a401d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.109979704
+      value: -0.1096
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2dd87a740f4fb4149a46307583a401d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.005105196
+      value: -0.0033
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2dd87a740f4fb4149a46307583a401d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6367,6 +6383,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 27.836
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2dd87a740f4fb4149a46307583a401d6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b68ec44beb772e428239ff4393166a0, type: 2}
     - target: {fileID: 919132149155446097, guid: 2dd87a740f4fb4149a46307583a401d6, type: 3}
       propertyPath: m_Name
       value: naczosy
@@ -9636,6 +9656,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -147.338
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 024bc759ca9dd6b4db9de44d47857a81, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ba0791e30fc1104d91b0ac862741845, type: 2}
     - target: {fileID: 919132149155446097, guid: 024bc759ca9dd6b4db9de44d47857a81, type: 3}
       propertyPath: m_Name
       value: znak z lizaka002
@@ -9932,6 +9956,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 55.18
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b98537d9f1d3a1d4a81e07639bfc88d0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3709b54df909fe94b9edd1a80879f301, type: 2}
     - target: {fileID: 919132149155446097, guid: b98537d9f1d3a1d4a81e07639bfc88d0, type: 3}
       propertyPath: m_Name
       value: Kladka
@@ -10257,6 +10285,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 919a509a1716181489f10e174be87dcd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03edd2585b40d8b499d65d1dc1d12a26, type: 2}
     - target: {fileID: 919132149155446097, guid: 919a509a1716181489f10e174be87dcd, type: 3}
       propertyPath: m_Name
       value: "rurka do napoj\xF3w"
