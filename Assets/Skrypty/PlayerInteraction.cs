@@ -5,14 +5,24 @@ using UnityEngine;
 public class PlayerInteraction : MonoBehaviour
 {
     public bool canInteract;
+    public bool interact;
 
     public Material mat;
     public Material glow;
 
+    public GameObject interactObject;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(interactObject != null)
+        {
+            interactObject.SetActive(false);
+        }
+        else
+        {
+
+        }
     }
 
     // Update is called once per frame
@@ -25,6 +35,15 @@ public class PlayerInteraction : MonoBehaviour
         else
         {
             GetComponent<MeshRenderer>().material = mat;
+        }
+
+        if(interact)
+        {
+            interactObject.SetActive(true);
+        }
+        else
+        {
+            interactObject.SetActive(false);
         }
     }
 
@@ -50,5 +69,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             Debug.Log(gameObject.name + " Interakcja");
         }
+
+        interact = true;
     }
 }

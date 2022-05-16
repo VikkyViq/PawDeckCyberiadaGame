@@ -4,15 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
-public class MainMenu : MonoBehaviour
+public class DialogueBox : MonoBehaviour
 {
-    public string startScene;
+    public string cardScene;
+    public GameObject parent;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -21,15 +21,13 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    public void StartGame()
+    public void PlayCards()
     {
-        Debug.Log("Starting game");
-        SceneManager.LoadScene(startScene);
+        SceneManager.LoadScene(cardScene);
     }
 
-    public void QuitGame()
+    public void Leave()
     {
-        Debug.Log("Quitting game");
-        Application.Quit();
+        parent.gameObject.SetActive(false);
     }
 }
