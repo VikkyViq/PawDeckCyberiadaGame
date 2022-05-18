@@ -32,6 +32,12 @@ public class Card : MonoBehaviour {
 	public GameObject loadCard(Transform parent) { //does all the setup for loading. Used if card doesn't need a specific position		
 		GameObject temp = Instantiate (cardObj);
 		temp.name = color + number;
+		switch(number)
+        {
+			case 4:
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
+				break;
+        }
 		if (number < 10) {
 			foreach (Transform childs in temp.transform) {
 				if (childs.name.Equals ("Cover"))
