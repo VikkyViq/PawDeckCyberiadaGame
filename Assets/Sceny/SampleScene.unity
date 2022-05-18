@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -555,6 +555,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bed1b99e58cc50543933822d548f46ef, type: 2}
     - target: {fileID: 919132149155446097, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe002"
@@ -703,6 +707,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 143.249
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (13)
@@ -772,6 +780,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 233.788
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (10)
@@ -924,6 +936,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 178.327
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (14)
@@ -1115,6 +1131,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.739
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (2)
@@ -1246,6 +1266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 26.828
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001
@@ -1580,6 +1604,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d72da9b3c3e213446b2c85543724fc2f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a6879814f4bb0db47a59188fe2b3fb0a, type: 2}
     - target: {fileID: 919132149155446097, guid: d72da9b3c3e213446b2c85543724fc2f, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe003"
@@ -1649,6 +1677,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 263.355
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (11)
@@ -1811,6 +1843,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 289.706
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (25)
@@ -1890,6 +1926,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -65.8
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1737a95edd18b4a468d4ee6f4d1daf37, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bed1b99e58cc50543933822d548f46ef, type: 2}
     - target: {fileID: 919132149155446097, guid: 1737a95edd18b4a468d4ee6f4d1daf37, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe001 (3)"
@@ -1964,6 +2004,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 61.184
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (3)
@@ -2263,6 +2307,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 87.534
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (9)
@@ -2411,6 +2459,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6634f6f560f1de14799c88f296985369, type: 2}
     - target: {fileID: 919132149155446097, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe002 (2)"
@@ -2592,6 +2644,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6634f6f560f1de14799c88f296985369, type: 2}
     - target: {fileID: 919132149155446097, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe002 (4)"
@@ -2760,6 +2816,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2d891b969784055449e540626057547a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fde924f5a9e78684ba24bed5dbdcabfc, type: 2}
     - target: {fileID: 919132149155446097, guid: 2d891b969784055449e540626057547a, type: 3}
       propertyPath: m_Name
       value: Pancakes
@@ -2829,6 +2889,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -93.247
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1737a95edd18b4a468d4ee6f4d1daf37, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bed1b99e58cc50543933822d548f46ef, type: 2}
     - target: {fileID: 919132149155446097, guid: 1737a95edd18b4a468d4ee6f4d1daf37, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe001 (2)"
@@ -3056,6 +3120,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 117.101
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (11)
@@ -3630,6 +3698,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e9d2881337e209c468bccd57947be1b3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6634f6f560f1de14799c88f296985369, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d2881337e209c468bccd57947be1b3, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe004"
@@ -3699,6 +3771,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 804d27dfecf3db54a94fa4d47465b570, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 49fef477a3dedb245a94323ce715dd3e, type: 2}
     - target: {fileID: 919132149155446097, guid: 804d27dfecf3db54a94fa4d47465b570, type: 3}
       propertyPath: m_Name
       value: paczek
@@ -3870,6 +3946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 114.159
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (8)
@@ -3939,6 +4019,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 87.534
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (26)
@@ -4487,6 +4571,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 87.331
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (4)
@@ -4678,6 +4766,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 169.874
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (12)
@@ -4747,6 +4839,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 207.894
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (16)
@@ -5074,6 +5170,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -51.823
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (5)
@@ -5143,6 +5243,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 143.046
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (6)
@@ -5212,6 +5316,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -25.197
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (4)
@@ -5507,6 +5615,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e9d2881337e209c468bccd57947be1b3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a6879814f4bb0db47a59188fe2b3fb0a, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d2881337e209c468bccd57947be1b3, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe004 (2)"
@@ -5678,6 +5790,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1737a95edd18b4a468d4ee6f4d1daf37, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bed1b99e58cc50543933822d548f46ef, type: 2}
     - target: {fileID: 919132149155446097, guid: 1737a95edd18b4a468d4ee6f4d1daf37, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe001 (1)"
@@ -5752,6 +5868,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -101.284
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6b0abb8b710473045884d7ddb0ca7077, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06aa1e96715caf143b6bba2e5c392127, type: 2}
     - target: {fileID: 919132149155446097, guid: 6b0abb8b710473045884d7ddb0ca7077, type: 3}
       propertyPath: m_Name
       value: Cola
@@ -5821,6 +5941,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 260.616
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (20)
@@ -5895,6 +6019,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 26.028
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9b1d1f07f5c06cb4ab8f439e27593ae9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c2af4ce1c45ccf24f818316d7bb013f5, type: 2}
     - target: {fileID: 919132149155446097, guid: 9b1d1f07f5c06cb4ab8f439e27593ae9, type: 3}
       propertyPath: m_Name
       value: Gofrowa lodka
@@ -5964,6 +6092,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 151.702
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (15)
@@ -6068,31 +6200,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0049094483
+      value: 0.0037244228
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.07779403
+      value: -0.07692234
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.011599996
+      value: -0.009499993
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.8922667
+      value: 0.7117968
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.00000005960465
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000004470349
+      value: 0.000000029802326
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.4515088
+      value: 0.7023855
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6104,8 +6236,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -413.681
+      value: -630.763
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b7aa9ed1f56530842bf7b0c0742a4233, type: 2}
     - target: {fileID: 919132149155446097, guid: c25ad336bd9414040a38f9afe55d94a8, type: 3}
       propertyPath: m_Name
       value: pucharek lodowy
@@ -6249,6 +6385,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -93.247
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6634f6f560f1de14799c88f296985369, type: 2}
     - target: {fileID: 919132149155446097, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe002 (3)"
@@ -6401,6 +6541,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 207.213
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (9)
@@ -6700,7 +6844,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 7f13b5767a4d1ff4a8be19410cb2e39e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4b4ab88db845bed4ab10d73eddf928c8, type: 2}
+      objectReference: {fileID: 2100000, guid: 7b26ef1ac7ede9b44a0814c60c13518c, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f13b5767a4d1ff4a8be19410cb2e39e, type: 3}
       propertyPath: m_Name
       value: Rakieta
@@ -7209,6 +7353,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 53fedadbf024fca4eb78e0896d2a3138, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d576474c13434214abf2761ee2f04929, type: 2}
     - target: {fileID: 919132149155446097, guid: 53fedadbf024fca4eb78e0896d2a3138, type: 3}
       propertyPath: m_Name
       value: babka
@@ -7357,6 +7505,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002
@@ -7459,6 +7611,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 116.898
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (5)
@@ -7528,6 +7684,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 181.269
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (17)
@@ -7725,6 +7885,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 61.387
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (7)
@@ -7794,6 +7958,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 151.499
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (7)
@@ -7863,6 +8031,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 316.331
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (24)
@@ -7937,6 +8109,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6634f6f560f1de14799c88f296985369, type: 2}
     - target: {fileID: 919132149155446097, guid: ab4689a079088fc40aae47be9d4b8c0f, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe002 (1)"
@@ -8011,6 +8187,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 181.066
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (8)
@@ -8080,6 +8260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1737a95edd18b4a468d4ee6f4d1daf37, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bed1b99e58cc50543933822d548f46ef, type: 2}
     - target: {fileID: 919132149155446097, guid: 1737a95edd18b4a468d4ee6f4d1daf37, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe001"
@@ -8370,6 +8554,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 130.801
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9cb56e408961a6a4bbeb14541b6be337, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bbc85c507af68b4286fe787ff7dafd5, type: 2}
     - target: {fileID: 919132149155446097, guid: 9cb56e408961a6a4bbeb14541b6be337, type: 3}
       propertyPath: m_Name
       value: patelnia
@@ -8439,6 +8627,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 233.991
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (21)
@@ -9044,6 +9236,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 289.503
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (12)
@@ -9215,6 +9411,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 263.55798
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (23)
@@ -10215,6 +10415,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 143.727
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (10)
@@ -10470,6 +10674,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e9d2881337e209c468bccd57947be1b3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a6879814f4bb0db47a59188fe2b3fb0a, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d2881337e209c468bccd57947be1b3, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe004 (1)"
@@ -10544,6 +10752,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 290.184
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (22)
@@ -10618,6 +10830,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 234.04199
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (18)
@@ -10687,6 +10903,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -52.026
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (2)
@@ -11018,6 +11238,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 88.012
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (6)
@@ -11087,6 +11311,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -28.364
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (3)
@@ -11156,6 +11384,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.203
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (1)
@@ -11332,6 +11564,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e9d2881337e209c468bccd57947be1b3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a6879814f4bb0db47a59188fe2b3fb0a, type: 2}
     - target: {fileID: 919132149155446097, guid: e9d2881337e209c468bccd57947be1b3, type: 3}
       propertyPath: m_Name
       value: "g\xF3ry lodowe004 (3)"
@@ -11406,6 +11642,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -28.567
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 022d01389323a0d40a5dfa6e934cd7ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 5828ded261d4ce241a01fb738d30ac10, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek002 (1)
@@ -12030,6 +12270,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 207.416
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5be44ea4154b5cb4ab717f44dd622891, type: 2}
     - target: {fileID: 919132149155446097, guid: c29e1b72d0bc5fa4b8ca7b859e071f6a, type: 3}
       propertyPath: m_Name
       value: paluszkowy plotek001 (19)

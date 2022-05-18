@@ -3,7 +3,42 @@ guid: 26cd88c552ceb0e44849ccdef6175232
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dom_Dach
+    second: {fileID: 2100000, guid: e670f21bfcfdd604fa10e3b2b1ed6f2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drewno_Cukierek
+    second: {fileID: 2100000, guid: 621876dedb937fd46bbb0dc692ec2b29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Drzwi
+    second: {fileID: 2100000, guid: 99a1e66a1fb0cf143a4cf7d375a2e13b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Komin
+    second: {fileID: 2100000, guid: 8350a32b715ca984f9893bb838683a7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Okna Okragle
+    second: {fileID: 2100000, guid: 52234cce335a3ec4ab5da0522ee4496a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Okna Prostokat
+    second: {fileID: 2100000, guid: 996bdb83997377e409570ea40bf7326a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snieg_Lukier
+    second: {fileID: 2100000, guid: 2ca1c23aa00cb7249b79da15062b7ba5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
