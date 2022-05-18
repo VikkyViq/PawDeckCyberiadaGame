@@ -51,13 +51,19 @@ public class AiPlayer : MonoBehaviour, PlayerInterface {
 			if (colorToPlay.Equals ("Black")) {
 				bool first = true;
 				while(colorToPlay.Equals(colorDisc) || first) {
-					int rand = Random.Range (1, 2);
+					int rand = Random.Range (1, 4);
 					switch (rand) {
 						case 1:
 							colorToPlay = "Red";
 							break;
 						case 2:
 							colorToPlay = "Blue";
+							break;
+						case 3:
+							colorToPlay = "Green";
+							break;
+						case 4:
+							colorToPlay = "Yellow";
 							break;
 					}
 					first = false;

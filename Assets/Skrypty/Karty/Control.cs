@@ -6,6 +6,8 @@ using System.Linq;
 
 public class Control : MonoBehaviour {
 
+	public float timeToReact;
+
 	List<PlayerInterface> players = new List<PlayerInterface>();
 	public static List<Card> deck = new List<Card>();
 	public static List<Card> discard = new List<Card>();
@@ -39,6 +41,8 @@ public class Control : MonoBehaviour {
 	void Start () { //this does all the setup. Makes the human and ai players. sets the deck and gets the game ready
 		discard.Clear ();
 		deck.Clear ();
+
+		numbOfAI = 1;
 
 		players.Add (new HumanPlayer ("You"));
 		for (int i = 0; i < numbOfAI; i++) {
@@ -103,10 +107,14 @@ public class Control : MonoBehaviour {
 	}
 	string returnColorName (int numb) { //returns a color based on a number, used in setup
 		switch(numb) {
-		case 0:
+		case 0: 
+			return "Green";
+		case 1:
 			return "Blue";
-		case 1: 
+		case 2: 
 			return "Red";
+		case 3: 
+			return "Yellow";
 		}
 		return "";
 	}
@@ -180,7 +188,7 @@ public class Control : MonoBehaviour {
 				return;
 			}
 			timer += Time.deltaTime;
-			if (timer < 2.2)
+			if (timer < timeToReact)
 				return;
 			this.enabled = false;
 			timer = 0;
