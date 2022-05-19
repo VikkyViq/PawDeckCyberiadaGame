@@ -35,43 +35,53 @@ public class Card : MonoBehaviour {
 		switch(number)
         {
 			case 0:
-				
+				temp.transform.GetChild(5).GetComponent<Text>().text = "candies";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
 				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
 				break;
 			case 1:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
-				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
-				break;
-			case 2:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.transform.GetChild(5).GetComponent<Text>().text = "chips";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
 				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("chips");
 				break;
+			case 2:
+				temp.transform.GetChild(5).GetComponent<Text>().text = "cookies";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("cookies");
+				break;
 			case 3:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
-				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("mini_candies");
+				temp.transform.GetChild(5).GetComponent<Text>().text = "tościk";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("tościk");
 				break;
 			case 4:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
-				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("sugar_cubes");
+				temp.transform.GetChild(5).GetComponent<Text>().text = "pancakes";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("pancakes");
 				break;
 			case 5:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
-				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("popcorn");
+				temp.transform.GetChild(5).GetComponent<Text>().text = "sugar cubes";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("sugar_cubes");
 				break;
 			case 6:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
-				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("cokies");
+				temp.transform.GetChild(5).GetComponent<Text>().text = "mini candies";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("mini_candies");
 				break;
 			case 7:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
-				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
+				temp.transform.GetChild(5).GetComponent<Text>().text = "marshmallows";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("marshmallows");
 				break;
 			case 8:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
-				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
+				temp.transform.GetChild(5).GetComponent<Text>().text = "pancakes";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("pancakes");
 				break;
 			case 9:
-				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.transform.GetChild(5).GetComponent<Text>().text = "icecream";
+				temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
 				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("icecream");
 				break;
 			/*case 10:
@@ -97,12 +107,36 @@ public class Card : MonoBehaviour {
 			}
 			temp.transform.GetChild(1).GetComponent<Text>().color = returnColor(color);
 		}
-		else if (number == 10 || number == 11 || number==12) {
-			temp.transform.GetChild (1).GetComponent<RawImage> ().color = returnColor (color);
+		else if (number == 10) 
+		{
+			//temp.transform.GetChild (1).GetComponent<RawImage> ().color = returnColor (color);
+			temp.transform.GetChild(5).GetComponent<Text>().text = "pretzel";
+			temp.transform.GetChild(6).GetComponent<Text>().text = "Zablokuj przeciwnika";
+			temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("pretzel");
+
+		}
+		else if(number == 11)
+        {
+			temp.transform.GetChild(5).GetComponent<Text>().text = "lollipops";
+			temp.transform.GetChild(6).GetComponent<Text>().text = "nazwa";
+			temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("lollipops");
+		}
+		else if(number == 12)
+        {
+			temp.transform.GetChild(5).GetComponent<Text>().text = "popcorn";
+			temp.transform.GetChild(6).GetComponent<Text>().text = "Zmuś przeciwnika do wzięcia 2 kart";
+			temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("popcorn");
 		}
 		else if (number == 13) {
-			temp.transform.GetChild (0).GetComponent<Text> ().text = "nazwa";
-			temp.transform.GetChild (2).GetComponent<Text> ().text = "opis";
+			temp.transform.GetChild(5).GetComponent<Text>().text = "donut";
+			temp.transform.GetChild(6).GetComponent<Text>().text = "Zmień kolor kart na stosie";
+			temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("donut");
+		}
+		else if(number == 14)
+        {
+			temp.transform.GetChild(5).GetComponent<Text>().text = "monster";
+			temp.transform.GetChild(6).GetComponent<Text>().text = "Zmuś przeciwnika do wzięcia 4 kart";
+			temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("monster");
 		}
 
 		temp.GetComponent<RawImage> ().texture = Resources.Load (color + "Card") as Texture2D;
