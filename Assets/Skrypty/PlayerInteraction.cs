@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    public static PlayerInteraction instance;
+
     public bool canInteract;
     public bool interact;
 
@@ -11,6 +13,11 @@ public class PlayerInteraction : MonoBehaviour
     public Material glow;
 
     public GameObject interactObject;
+    
+    void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +35,11 @@ public class PlayerInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            interact = false;
+        }
+
         if(canInteract)
         {
             GetComponent<MeshRenderer>().material = glow;

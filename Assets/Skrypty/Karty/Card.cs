@@ -31,27 +31,78 @@ public class Card : MonoBehaviour {
 	}
 	public GameObject loadCard(Transform parent) { //does all the setup for loading. Used if card doesn't need a specific position		
 		GameObject temp = Instantiate (cardObj);
-		temp.name = color + number;
+		//temp.name = color + number;
 		switch(number)
         {
-			case 4:
+			case 0:
+				
 				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
 				break;
-        }
-		if (number < 10) {
-			foreach (Transform childs in temp.transform) {
-				if (childs.name.Equals ("Cover"))
+			case 1:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
+				break;
+			case 2:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("chips");
+				break;
+			case 3:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("mini_candies");
+				break;
+			case 4:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("sugar_cubes");
+				break;
+			case 5:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("popcorn");
+				break;
+			case 6:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("cokies");
+				break;
+			case 7:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
+				break;
+			case 8:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("candies");
+				break;
+			case 9:
+				temp.GetComponentInChildren<Text>().text = "nazwa".ToString();
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("icecream");
+				break;
+			/*case 10:
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("pretzel");
+				break;
+			case 11:
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("popcorn");
+				break;
+			case 12:
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("donut");
+				break;
+			case 13:
+				temp.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("monster");
+				break;*/
+		}
+		if (number < 10)
+		{
+			foreach (Transform childs in temp.transform)
+			{
+				if (childs.name.Equals("Cover"))
 					break;
-				childs.GetComponent<Text> ().text = number.ToString ();
+				childs.GetComponent<Text>().text = number.ToString();
 			}
-			temp.transform.GetChild (1).GetComponent<Text> ().color = returnColor (color);
+			temp.transform.GetChild(1).GetComponent<Text>().color = returnColor(color);
 		}
 		else if (number == 10 || number == 11 || number==12) {
 			temp.transform.GetChild (1).GetComponent<RawImage> ().color = returnColor (color);
 		}
 		else if (number == 13) {
-			temp.transform.GetChild (0).GetComponent<Text> ().text = "";
-			temp.transform.GetChild (2).GetComponent<Text> ().text = "";
+			temp.transform.GetChild (0).GetComponent<Text> ().text = "nazwa";
+			temp.transform.GetChild (2).GetComponent<Text> ().text = "opis";
 		}
 
 		temp.GetComponent<RawImage> ().texture = Resources.Load (color + "Card") as Texture2D;
@@ -62,13 +113,13 @@ public class Card : MonoBehaviour {
 	Color returnColor(string what) { //returns a color based on the color string
 		switch (what) {
 		case "Green":
-			return new Color32 (0x55, 0xaa, 0x55,255);
+			return new Color32 (255, 255, 255, 0);
 		case "Blue":
-			return new Color32 (0x55, 0x55, 0xfd,255);
+			return new Color32 (255, 255, 255, 0);
 		case "Red":
-			return new Color32 (0xff, 0x55, 0x55,255);
+			return new Color32 (255, 255, 255, 0);
 		case "Yellow":
-			return new Color32 (0xff, 0xaa, 0x00,255);
+			return new Color32 (255, 255, 255, 0);
 		}
 		return new Color (0, 0, 0);
 	}
